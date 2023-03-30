@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    background-color: #ffab40;
+}
+
+.encabezado{
+display: flex;
+height: 70px;
+background-color: rgb(255, 115, 0);
+justify-content: space-around;
+align-items: center;
+padding: 10px;
+font-size: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-right: 10px;
+}
+a.hover{
+    color: white;
+}
+
+.logo2{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 50px;
+    
+}
+
+.redes{
+    display: flex;
+    margin-top: -69px;
+    margin-left: 80%;
+}
+
+
+
+.pie2{
+    display: flex;
+    justify-content:space-around;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+#horario{
+    font-weight: 600;
+}
+ 
+.pie{
+    background-color:rgb(255, 115, 0) ;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+form{
+    background-color: rgb(255, 115, 0);
+    border-radius: 3%;
+    border:200px;
+    padding: 50px;
+     margin: auto;
+     width: 400px;
+    color: black;
+    
+
+ }
+
+ .field{
+    border: solid 1x ;
+    padding: 3px;
+   
+ }
+
+ .field:focus{
+    border-color:black ;
+ }
+
+ input, textarea{
+    border: 0;
+    outline:none ;
+    width: 200px;
+ }
+
+ .btn{
+    border-radius: 3px;
+      display: inline-block;
+      padding: 20px 15px;
+      text-decoration: none;
+      text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+      box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  }
+  .btn-green{
+    font-size: 20px;
+    font-weight: 600;
+      color: rgb(255, 255, 255);
+      background-color: #3b3a38;
+  }
+  .btn-green:hover{
+      background-color: #111;	
+  }
+  .btn-green:active{
+      background-color: #d10b0b;
+  }

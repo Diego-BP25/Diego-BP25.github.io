@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    background-color: #ffab40;
+}
+
+.encabezado{
+display: flex;
+height: 70px;
+background-color: rgb(255, 115, 0);
+justify-content: space-around;
+align-items: center;
+padding: 10px;
+font-size: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.logo2{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 50px;
+    
+}
+
+.redes{
+    display: flex;
+    margin-top: -69px;
+    margin-left: 80%;
+}
+
+
+
+.pie2{
+    display: flex;
+    justify-content:space-around;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+#horario{
+    font-weight: 600;
+}
+
+.pie{
+    background-color:rgb(255, 115, 0) ;
+}
+
+#contenedor-m{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+#titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Thamburguesa{
+border-radius: 13%;
+background-color: #ffd180;
+    font-size: 23px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#Tsalchipapa{
+border-radius: 13%;
+background-color: #ffd180;
+    font-size: 23px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#Tperro{
+border-radius: 13%;
+background-color: #ffd180;
+    font-size: 23px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Tdesgranado{
+border-radius: 13%;
+background-color: #ffd180;
+    font-size: 23px;
+    padding: 10px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imagen{
+    display: inline-block;
+    justify-content: center;
+    width: 450px;
+    height: 350px;
+    border-radius: 3%;
+    margin-left: 450px;
+    margin-top: 50px;
+    margin-bottom: -5px;
+}
